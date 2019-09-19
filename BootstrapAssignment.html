@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Bootstrap Themes</title>
+	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<meta http-equiv="x-UA-Compatible" content="ie=edge">
+ 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 	
+ 	<style type="text/css">
+ 		.a{
+ 			height: 200px;
+ 			border-bottom: 1px solid lightgrey;
+ 		}
+
+ 		p{
+ 			font-family: lato;
+ 			font-size: 15px;
+ 		}
+ 		.btn-sm {
+ 			border-color: #3097D1;
+ 			color: #3097D1;
+ 			background: #fff;
+ 		}
+ 		.btn-sm:hover {
+  			background: #3097D1;
+  			color:  #fff;
+		}
+		.link{
+			padding-left: 5px;
+			font-size: 15px;
+			color: #3097D1;
+			font-family: lato;
+		}
+		.card-body{
+			margin-top: -10px
+		}
+		
+ 	</style>
+ 	<script type="text/javascript">
+ 		
+ 		$(document).ready(function(){
+	    	$("#buton").click(function(){
+	        	$("nav").css({"background-color": "#4f4e33", "font-color":"#fff", "font-family":"fontawesome"});
+	        	$(".row").css({"background-color": "#4f4e33", "font-family":"lato"});
+	     		$(".card, h5, .small").css({"background-color": k.value, "color": "#ffff" });
+	     		$(" a").css({"color": "#ccc"});
+	   		 });
+		});
+
+ 	</script>
+</head>
+<body>
+	<nav class="navbar bg-dark navbar-expand-md navbar-dark fixed-top" id="firstd" style="background-color: #3097D1 !important">
+		<a href="" class="navbar-brand"><img src="images/bootstraplogo2.jpg" style="width:85px; height:25px"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#d">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="d">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="#" class="nav-link active">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Profile</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Messages</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Docs</a>
+				</li>
+				<li class="nav-item d-xs-none">
+					<input type="color" id="k">
+				</li>
+				<li class="nav-item d-xs-none"><button id="buton" >click</button>
+				</li>
+				<li class="nav-item d-lg-none"><a href="#" class="nav-link">Notification</a>
+				</li>
+				<li class="nav-item d-lg-none"><a href="#" class="nav-link">Growl</a>
+				</li>
+				<li class="nav-item d-lg-none"><a href="#" class="nav-link">Logout</a>
+				</li>
+			</ul>
+			<ul class="navbar-nav navbar-right d-xs-none" style="margin-left: 46%">
+				<li class="nav-item mr-4">
+					<input type="search" placeholder="  Search" style="border:1px solid grey; height: 35px; border-radius: 5%;">
+				</li>
+				<a href="#"><span class="fa fa-search mt-2 mr-3" style="color: white"></span></a>
+				<li class="nav-item">
+					<img src="images/passport.jpg" class="rounded-circle" style="width:35px; ">
+				</li>
+			</ul>			
+		</div>
+	</nav>
+	<div class="container-fluid" id="cont" style=" background-color:#F5F8F4 !important">
+		<div class="row mt-5 pt-4" style="background-color: #F7F7F7;">
+			<div class="col-md-3 mt-2 mb-3">
+				<div class="card">
+					<div class="card-body a">
+						<a href="#">
+						<img src="images/passport.jpg" class="rounded-circle" width="95" style="margin-top: 120px; margin-left:33%"></a>
+					</div>
+					<div class="card-body pt-5">
+						<a href="" style="text-decoration: none; color:#212529"><h5 align="center">David Ayangunna</h5></a>
+						<p align="center">I wish I was a little bit taller, was a baller, wish I had a girl... also.</p>
+						<center>
+							<div class="list-inline align-center">
+							<div class="list-group pr-1" style="border-right:solid lightgrey;width: 60px; margin-left:-80px">
+								<a href="" style="text-decoration: none; color:#212529"><li>Friends</li>
+								<li style="font-weight: bolder;">20M</li></a>
+							</div>
+							<div class="list-group align-right" style=" margin-top: -47px; margin-left:60px; width: 60px;">
+								<a href="" style="text-decoration: none; color:#212529"><li>Enemies</li><li style="font-weight: bolder;">1</li></a>
+							</div>
+							</div>
+						</center>
+					</div>
+				</div>
+				<div class="card mt-3">
+					<div class="card-body">
+						<h6 class="list-inline">About ·<small><a href="#"> Edit</a></small></h6>
+						<p><span class="fa fa-dribbble-square" ></span> Went to <a href="#">PortHarcourt, Lagos, Minna</a></p>
+						<p><span class="fa fa-dribbble-square" ></span> Became friends with <a href="#">Obama, Trump, Mark, Job</a></p>
+						<p><span class="fa fa-dribbble-square" ></span> Worked at <a href="izbeki.com">Izbeki.com</a></p>
+						<p><span class="fa fa-dribbble-square" ></span> Lives in <a href="#">Ogbomoso, Nigeria</a></p>
+						<p><span class="fa fa-dribbble-square" ></span> From <a href="#">Ogbomoso, Nigeria </a></p>
+					</div>
+				</div>
+				<div class="card mt-3">
+					<div class="card-body">
+						<h6 class="list-inline" >Photos ·<small><a href="#"> Edit</a></small></h6>
+						<div class="row">
+  							<div class="col-md-6 mt-2 col-sm-3">
+    							<div class="thumbnail">
+									<a href="images/skies.jpg" target="_blank">
+										<img src="images/skies.jpg" aqwidth="100%">
+									</a>
+								</div>
+							</div>
+  							<div class="col-md-6 mt-2 col-sm-3">
+    							<div class="thumbnail">
+    								<a href="images/rock.jpg" target="_blank">
+										<img src="images/rock.jpg" width="100%">
+									</a>
+								</div>
+							</div>
+  							<div class="col-md-6 mt-2 col-sm-3">
+    							<div class="thumbnail">
+    								<a href="images/tower-infinity.jpg" target="_blank">
+										<img src="images/tower-infinity.jpg" width="100%">
+									</a>
+								</div>
+							</div>
+						<div class="col-md-6 mt-2 col-sm-3">
+    							<div class="thumbnail">
+									<a href="images/sea-car.jpg" target="_blank">
+										<img src="images/sea-car
+										.jpg" width="100%">
+									</a>
+								</div>
+							</div>
+  							<div class="col-md-6 mt-2 col-sm-6">
+    							<div class="thumbnail">
+    								<a href="images/p5.jpg" target="_blank">
+										<img src="images/p5.jpg" width="100%">
+									</a>
+								</div>
+							</div>
+  							<div class="col-md-6 mt-2 col-sm-6">
+    							<div class="thumbnail">
+    								<a href="images/p8.jpg" target="_blank">
+										<img src="images/p8.jpg" width="100%">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 mt-2">
+				<div class="card" style="height: 96%; margin-bottom: -10px">
+					<div class="card-body">
+						<form class="form">
+							<div class="input-group">
+		      					<input type="text" class="form-control"	placeholder="Message" name="search">
+		      					
+		        				<button class="btn btn-secondary" type="submit"><span class="fa fa-search"></span></button>
+		      					
+		    				</div>
+		    			</form>
+					</div>
+					<hr style="color: black; margin-top: -5px">
+					<div class="card-body">
+						<div class="card-img-left">
+		    				<img src="images/passport.jpg" class="rounded-circle"  style="width:55px">
+		    			</div>
+		    			<div class="card-body offset-1" style="margin-top: -70px">
+		    				<h6 class="list-inline">David Ayangunna<div class="small" style="float: right; color: grey">4 min</div></h6>
+		    				<p>Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+		    			</div>
+		    		</div>
+		    		<div class="card-body">
+		    			<div class="row offset-1" style="margin-top: -60px">
+		    				<div class="col-lg-7 col-md-12 col-sm-7 col-xs-12 mt-2">
+	    						<div class="thumbnail">
+									<a href="images/unsplash_1.jpg" target="_blank">
+										<img src="images/unsplash_1.jpg" width="100%" height="200px">
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-5 col-md-6 col-sm-5 col-xs-12 mt-2">
+	    						<div class="thumbnail">
+									<a href="images/falls2.jpg" target="_blank">
+										<img src="images/falls2.jpg" width="100%" height="200px">
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-5 col-md-6 col-sm-5 col-xs-12 mt-2">
+	    						<div class="thumbnail">
+									<a href="images/instagram_13.jpg" target="_blank">
+										<img src="images/instagram_13.jpg" width="100%" height="200px">
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-7 col-md-12 col-sm-7 col-xs-12 mt-2">
+	    						<div class="thumbnail">
+									<a href="images/gondol.jpg" target="_blank">
+										<img src="images/gondol.jpg" width="100%" height="200px">
+									</a>
+								</div>
+							</div>
+		    			</div>
+		    		</div>
+		    		<div class="card-body" style="margin-top: -50px">
+		    			<div class="card-img-top mt-4">
+		    				<img src="images/avatar-dhg.png" class="rounded-circle mr-2 mt-4" width="40">
+		    			</div>
+		    			<div class="card-body offset-1" style="position: relative; top: -70px">
+		    				<p class="list-inline" style="font-weight: bolder">Dave Gamache:<span style="font-weight: normal;">Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis</span>
+		    				</p>
+		    			</div>
+		    		</div>
+		    		<div class="card-body" style="margin-top: -150px">
+		    			<div class="card-img-top mt-4">
+		    				<img src="images/avatar-fat.jpg" class="rounded-circle mr-2 mt-4" width="40">
+		    			</div>
+		    			<div class="card-body offset-1" style="position: relative; top: -70px">
+		    				<p class="list-inline" style="font-weight: bolder">Jacon Thornton:<span style="font-weight: normal;">Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis</span>
+		    				</p>
+		    			</div>
+		    		</div>
+		    		<div class="card-body" style="margin-top: -120px">
+		    			<div class="card-img-top">
+		    				<img src="images/avatar-mdo.png" class="rounded-circle mr-2" width="40">
+		    			</div>
+		    			<div class="card-body offset-1" style="position: relative; top: -70px">
+		    				<p class="list-inline" style="font-weight: bolder">Mark Otto:<span style="font-weight: normal;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</span>
+		    				</p>
+		    			</div>
+		    		</div>
+		    		<hr style="color:lightgrey; margin-top: -95px">
+		    		<div class="card-body">
+						<div class="card-img-left">
+		    				<img src="images/avatar-dhg.png" class="rounded-circle"  style="width:55px; margin-left: -8px">
+		    			</div>
+		    			<div class="card-body offset-1" style="margin-top: -70px">
+		    				<h6 class="list-inline">Dave Gamache<div class="small" style="float: right; color: grey">8 min</div></h6>
+		    				<p>Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis</p>
+		    			</div>
+		    		</div>
+		    		<div class="card-body">
+						<div class="card-img-left">
+		    				<img src="images/avatar-fat.jpg" class="rounded-circle"  style="width:55px; margin-left: -8px">
+		    			</div>
+		    			<div class="card-body offset-1" style="margin-top: -120px">
+		    				<h6 class="list-inline">Jacon Thornton<div class="small" style="float: right; color: grey">12 min</div></h6>
+		    				<p>Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis</p>
+		    			</div>
+		    		</div>
+		    		<div class="card-body" style="margin-top: -60px">
+						<div class="card-img-left">
+		    				<img src="images/avatar-mdo.png" class="rounded-circle"  style="width:55px; margin-left: -8px">
+		    			</div>
+		    			<div class="card-body offset-1" style="margin-top: -70px">
+		    				<h6 class="list-inline">Mark Otto:<div class="small" style="float: right; color: grey">34 min</div></h6>
+		    				<p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+		    			</div>
+		    		</div>
+		    		<div class="card-body">
+		    			<div class="row offset-1" style="margin-top: -60px">
+		    				<div class="col-12 mt-2">
+		    					<div class="thumbnail">
+		    						<a href="images/instagram_3.jpg" target="_blank">
+		    							<img src="images/instagram_3.jpg" width="95%">
+		    						</a>
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</div>
+		    		<div class="card-body offset-1" style="margin-top: -50px">
+		    			<div class="card-img-top mt-4 ">
+		    				<img src="images/passport.jpg" class="rounded-circle ml-2 mt-3" width="40">
+		    			</div>
+		    			<div class="card-body offset-1" style="position: relative; top: -60px">
+		    				<p class="list-inline" style="font-weight: bolder">David Ayangunna:<span style="font-weight: normal;">Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis</span>
+		    				</p>
+		    			</div>
+		    		</div>
+				</div>
+			</div>
+			<div class="col-md-3" style="margin-top: 10px">
+    			<div class="alert alert-warning alert-dismissible">
+    				<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+  					<p><strong><a href="" id="s" style="color: #573E1C"> Visit your profile! </a></strong> Check yourself, you aren't looking well</p>
+  				</div>
+  				
+  				<div class="card">
+					<div class="card-body">
+						<h6>Sponsored</h6>
+					</div>
+					<div class="card-body" style="margin-top: -35px">
+						<a href="images/instagram_2.jpg" target="_blank">
+		    			<img src="images/instagram_2.jpg" width="100%">
+		    			</a>
+					</div>
+					<div class="card-body" style="margin-top: -30px">
+						<h6>It might be time to visit Iceland</h6>
+						<p style="margin-top: -5px; margin-right:20px; ">Iceland is so chill, and everything looks cool here. Also, we heard the people are pretty nice. What are you waiting for?</p>
+					</div>
+					<div class="card-body" style="margin-top: -40px">
+						<button type="button" class="btn btn-sm" style="font-size: 13px">Buy a ticket</button>
+					</div>
+				</div>
+				<div class="card mt-4">
+					<div class="card-body">
+						<h6 class="list-inline" >Likes ·<small><a href="#" style="color: "> View All</a></small></h6>
+					</div>
+					<div class="card-body" style="margin-top: -35px">
+						<div class="card-img-left">
+		    				<img src="images/avatar-dhg.png" class="rounded-circle"  style="width:60px; margin-left: -8px">
+		    			</div>
+						<div class="card-body offset-1" style="position: relative; top: -75px">
+			    			<p class="list-inline offset-2" style="font-weight: bolder">Dave Gamache<span style="font-weight: normal;"> @dave</span>
+			    			</p>
+			    			<button type="button" class="btn btn-sm offset-2" style="font-size: 13px; margin-top:-15px"><span class="fa fa-dribbble-square" ></span> Follow</button>
+			    		</div>
+			    	</div>
+			    	<div class="card-body" style="margin-top: -110px">
+						<div class="card-img-left">
+		    				<img src="images/avatar-fat.jpg" class="rounded-circle"  style="width:60px; margin-left: -8px">
+		    			</div>
+						<div class="card-body offset-1" style="position: relative; top: -75px">
+			    			<p class="list-inline offset-2" style="font-weight: bolder">John Thortorn<span style="font-weight: normal;"> @fat</span>
+			    			</p>
+			    			<button type="button" class="btn btn-sm offset-2" style="font-size: 13px; margin-top:-15px"><span class="fa fa-dribbble-square" ></span> Follow</button>
+			    		</div>
+			    	</div>
+			    	<div class="card-body" style="margin-top: -115px">
+						<div class="card-img-left">
+		    				<img src="images/avatar-mdo.png" class="rounded-circle"  style="width:60px; margin-left: -8px">
+		    			</div>
+						<div class="card-body offset-1" style="position: relative; top: -75px">
+			    			<p class="list-inline offset-2" style="font-weight: bolder">Mark Otto<span style="font-weight: normal;"> @mdo</span>
+			    			</p>
+			    			<button type="button" class="btn btn-sm offset-2" style="font-size: 13px; margin-top:-15px"><span class="fa fa-dribbble-square" ></span> Follow</button>
+			    		</div>
+			    	</div>
+			    	<div class="divider" style="border:1px solid lightgrey; margin-top: -90px">
+			    	</div>
+				    	<p class="text m-3">David really likes these nerds, no one knows why though.</p>
+					</div>
+					<div class="card mt-4 mb-5 ">
+					<div class="card-body">
+						<div class="footer list-inline"><p style="">	&#169; 2018 Bootstrap <a href="#" class="link">About </a><a href="#" class="link">Help </a><a href="#" class="link">Terms </a><a href="#" class="link">Privacy </a><a href="#"class="link">Cookies </a><a href="#" class="link">Ads </a><a href="#" class="link">Info </a><a href="#" class="link">Brand </a><a href="#" class="link">Blog </a><a href="#" class="link">Status </a><a href="#" class="link">Apps </a><a href="#" class="link">Jobs </a><a href="#" class="link">Advertise </a></p></div>
+					</div></div>
+				</div>
+			</div>
+		</div>	
+	</div>
+</body>
+</html>
